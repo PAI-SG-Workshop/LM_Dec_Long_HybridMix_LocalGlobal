@@ -5,7 +5,7 @@ HybridMix_LocalGlobal - Long family, decoder-only byte-level language model, sta
 ## Status
 
 - Verification level: **Benchmarked (6 seed-repeat runs, see results)**
-- Failure class: none
+- Failure class: Note: best 1B-token quality (1.315) and length-general state tracking (0.92-0.96 at 8192, 5 runs); memory update exact after long training (3/3); fails distant key-value recall (LM-05)
 
 ## Provenance
 
